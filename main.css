@@ -1,2 +1,124 @@
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
 
 
+.main_container{
+    width: 100%;
+    height: 100vh;
+    background: url('./img/home.jpeg')center center;
+    background-size: cover;
+}
+
+.desktop_header{
+    width: 100%;
+    height: 80px;
+    position: relative;
+    display: none;
+}
+
+.mobile_header{
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+.ham{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px 0px 8px 7px;
+}
+
+.line{
+    width: 20px;
+    height: 1px;
+    background: white;
+    left: 5px;
+}
+
+.icon_holder{
+    width: 25%;
+    height: 40px;
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+    background: white;
+}
+
+ul{
+    width: 100%;
+    padding: 25px 10% 5px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    font-size: 22px;
+}
+
+.main_content{
+    width: 100%;
+    text-align: center;
+    padding-top: 25vh;
+}
+
+.main_content h1{
+    font-size: 40px;
+}
+
+.main_content h2{
+    font-size: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 20px);
+}
+
+.white{
+    background: white;
+}
+
+/*.fa{
+    font-size: 1em;
+    color: white;
+    width: 10px;
+}*/
+
+@media (min-width: 700px){
+    .mobile_header{
+      display: none;
+    }
+
+    .desktop_header{
+       display: block;
+    }
+}

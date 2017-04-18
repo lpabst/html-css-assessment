@@ -6,16 +6,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML Assessment</title>
   <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
   
+  <!--I have a main container that everything is inside of-->
+<section class="main_container">
+
+  <!--I have the desktop header for larger screens (>700px)-->
+  <div class='desktop_header'>
+    <ul class='nav'>
+      <li>Home</li>
+      <li>About</li>
+      <li>Story</li>
+    </ul>
+  </div>
+
+<!--I have the mobile header for smaller screens (<700px)-->
+  <div class="mobile_header">
+
+<!--Inside the mobile header, I have my hamburger menu-->
+    <div class='ham'>
+      <div class='line'></div>
+      <div class='line'></div>
+      <div class='line'></div>
+    </div>
+
+<!--A containing div for my icons-->
+    <div class = 'icon_holder'>
+
+  <!--And my facebook/twitter icon placeholders-->
+      <!--<div class = 'icon'></div>
+      <div class = 'icon'></div>-->
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+    </div>
+
+  </div>
   
-  <main role="main">
+  <!--This section contains the words 
+  for the middle of the page-->
+  <section class="main_content">
+    <h1>Your</h1>
+    <h2>PERSONAL PORTFOLIO</h2>
+  </section>
+    
+  <!--My footer has the white circle at the bottom-->
+  <footer class='footer'>
+    <div class='circle white'></div>
+  </footer>
 
 
-  </main>
+</section>
 
 </body>
 </html>
